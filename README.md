@@ -1,6 +1,6 @@
-#ZipFS implementation in C as well as Python
+# ZipFS implementation in C as well as Python
 
-####Requirements for C :
+#### Requirements for C :
 **libzip-dev package :-** ``` $ sudo apt-get install libzip-dev ```
 **Fuse 2.9** 
 **Compile :-** ``` $  gcc -Wall -g zipfs.c `pkg-config fuse libzip --cflags --libs` -lzip -o zipfs ```
@@ -8,7 +8,7 @@
 
 
 
-####Requirements for Python :
+#### Requirements for Python :
 **fusepy :-** ```$ sudo pip install fusepy```
 **Run :-** ```$ python [zip-file.zip] [mount-point]```
 
