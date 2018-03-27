@@ -1,4 +1,5 @@
 # ZipFS implementation in C as well as Python
+-----
 
 #### Requirements for C :
 **libzip-dev package :-** ``` $ sudo apt-get install libzip-dev ``` <br/>
@@ -7,11 +8,11 @@
 **Run :-** ``` $ ./zipfs [zip-file.zip] [mount-point] ``` <br/>
 
 
-
 #### Requirements for Python :
 **fusepy :-** ```$ sudo pip install fusepy``` <br/>
 **Run :-** ```$ python [zip-file.zip] [mount-point]``` <br/>
 
+-----
 
 #### References :
 [FUSE Tutorial - Write a filesystem with FUSE](https://engineering.facile.it/blog/eng/write-filesystem-fuse/) <br/>
