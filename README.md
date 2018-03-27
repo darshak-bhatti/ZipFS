@@ -14,7 +14,6 @@
 
 
 #### References :
-<br/>
 [FUSE Tutorial - Write a filesystem with FUSE](https://engineering.facile.it/blog/eng/write-filesystem-fuse/) <br/>
 [FUSE Tutorial - Uncleaer FUSE Functions](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/html/unclear.html)<br/>
 [FUSE Callbacks](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/html/callbacks.html)<br/>
