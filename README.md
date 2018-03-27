@@ -1,19 +1,19 @@
 # ZipFS implementation in C as well as Python
 
 #### Requirements for C :
-**libzip-dev package :-** ``` $ sudo apt-get install libzip-dev ```
-**Fuse 2.9** 
-**Compile :-** ``` $  gcc -Wall -g zipfs.c `pkg-config fuse libzip --cflags --libs` -lzip -o zipfs ```
-**Run :-** ``` $ ./zipfs [zip-file.zip] [mount-point] ```
+**libzip-dev package :-** ``` $ sudo apt-get install libzip-dev ``` <br/>
+**Fuse 2.9** <br/>
+**Compile :-** ``` $  gcc -Wall -g zipfs.c `pkg-config fuse libzip --cflags --libs` -lzip -o zipfs ``` <br/>
+**Run :-** ``` $ ./zipfs [zip-file.zip] [mount-point] ``` <br/>
 
 
 
 #### Requirements for Python :
-**fusepy :-** ```$ sudo pip install fusepy```
-**Run :-** ```$ python [zip-file.zip] [mount-point]```
+**fusepy :-** ```$ sudo pip install fusepy``` <br/>
+**Run :-** ```$ python [zip-file.zip] [mount-point]``` <br/>
 
 
- References :
+#### References :
 <br/>
 [FUSE Tutorial - Write a filesystem with FUSE](https://engineering.facile.it/blog/eng/write-filesystem-fuse/) <br/>
 [FUSE Tutorial - Uncleaer FUSE Functions](https://www.cs.nmsu.edu/~pfeiffer/fuse-tutorial/html/unclear.html)<br/>
