@@ -1,5 +1,4 @@
-# ZipFS implementation in C as well as Python
------
+# ZipFS implementation in C and Python
 
 #### Requirements for C :
 **libzip-dev package :-** ``` $ sudo apt-get install libzip-dev ``` <br/>
